@@ -4976,7 +4976,7 @@ li {
   position: relative;
   display: block;
   padding: 97px 0 100px;
-  background: #232733;
+  background:var(--thm-base);
 }
 .footer-widget__about {
   margin-right: 40px;
