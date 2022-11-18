@@ -167,9 +167,10 @@ li {
   color: #ffffff;
   font-weight: 900;
   padding: 20.5px 59px;
-  border-radius: 0;
+  border-radius: 11px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease; 
+  margin-bottom: 30px;
   
 }
 
@@ -4761,8 +4762,7 @@ li {
   margin-top: -215px;
   margin-bottom: 100px;
 }
-.cta_one_left {
-}
+
 .cta_one_left h2 {
   font-size: 40px;
   color: #ffffff;
