@@ -170,7 +170,7 @@ li {
   border-radius: 11px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease; 
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   
 }
 
@@ -1316,9 +1316,11 @@ li {
   position: relative;
   display: block;
   padding-left: 50px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(13, 200, 247);
   height: 4em;
+  
+  
 
   
 
@@ -1388,7 +1390,7 @@ li {
   margin-right: 10px;
   line-height: 11px;
   margin-top: 6px;
-  border: 1px solid rgb(255, 125, 3);
+  
 
   
 
@@ -1549,7 +1551,7 @@ li {
 .header_top_four {
   position: relative;
   display: block;
-  background: #ffffff;
+  background: rgb(239, 239, 239);
 }
 .header_top_four_content {
   position: relative;
@@ -1748,7 +1750,7 @@ li {
 }
 
 .header-navigation.four.five.original {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 51, 11, 0.1);
 }
 
 .main-nav__main-navigation.five .main-nav__navigation-box > li + li {
@@ -2600,7 +2602,7 @@ li {
   margin: 0;
   font-size: 90px;
   line-height: 94px;
-  color: #ffffff;
+  color:  var(--thm-primary);
   font-weight: 800;
   opacity: 0;
   letter-spacing: 0;
@@ -2633,6 +2635,16 @@ li {
 
 .banner-carousel-two .content-box .big_text h1{
   color: white;
+  
+}
+.banner-carousel-two .content-box h1 {
+ 
+  
+  background-color: grey;
+  position: absolute;
+  
+  
+ 
 }
 .banner-carousel-two .content-box .link-box {
   position: relative;
@@ -2991,7 +3003,7 @@ li {
 }
 
 .banner-carousel-three.owl-carousel .owl-dots {
-  margin-top: 0 !important;
+  margin-top: 0em !important;
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -4921,7 +4933,7 @@ li {
 .categories_two {
   position: relative;
   display: block;
-  background: #1c202a;
+  background: #f34a07;
   padding: 30px 0;
 }
 .categories_two_menu {
@@ -4961,7 +4973,7 @@ li {
 }
 .categories_two_menu li a {
   font-size: 18px;
-  color: #b4b8c3;
+  color: #ffffff;
   font-weight: 600;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
